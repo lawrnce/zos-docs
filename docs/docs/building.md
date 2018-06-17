@@ -104,7 +104,7 @@ _Voilà!_ You have deployed and upgraded an application using ZeppelinOS. The ad
 To try the upgraded feature we just added, run:
 ```sh
 npx truffle console --network=local
-truffle(local)> myContract = MyContract.at(<your-instance-address>)
+truffle(local)> myContract = MyContract.at("<your-instance-address>")
 truffle(local)> myContract.increment()
 truffle(local)> myContract.x()
 43
